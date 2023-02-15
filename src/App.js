@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import { Home } from './component3/Home';
+import { Home } from './component4/Home';
 import { TodoCompo } from './TodoCompo';
 
 function App() {
