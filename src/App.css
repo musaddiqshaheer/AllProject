@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+.main{
+  height : 2000px;
+  width : 2000px;
+  position: relative;
+  background-color:paleturquoise;
+}
+
+.div1{
+  background-color: bisque;
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  float: right;
+  position: absolute;
+  top : 200px;
+  left : 350px;
+  
+  text-shadow: 10PX 10PX 10PX red;
+  box-shadow: 10px 10px 10px darkgreen;
+}
+.div2{
+  background-color: bisque;
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  float: right;
+  position: absolute;
+  top : 200px;
+  left : 1030px;
+  box-shadow: 10px -10px 10px blue;
+  text-shadow: -10PX -10PX 10PX blueviolet;
+}
+.div3{
+  background-color:antiquewhite;
+  width: 400px;
+  height: 400px;
+  border: 2px solid brown;
+  float: right;
+  position: absolute;
+  top :800px ;
+  left : 350px;
+text-shadow: -10PX 10PX 10PX orangered;
+  box-shadow: -10px 10px 10px palevioletred;
+
+}.div4{
+  background-color:pink;
+  width: 400px;
+  height: 400px;
+  border: 2px solid yellow;
+  float: right;
+  position: absolute;
+  top : 800px;
+  left : 1030px;
+  text-shadow: 10PX 10PX 10PX palevioletred;
+  box-shadow: 10px 10px 10px maroon ;
+}
