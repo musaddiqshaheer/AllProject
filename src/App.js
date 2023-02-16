@@ -1,8 +1,8 @@
-// import logo from './logo.svg';
+ import logo from './logo.svg';
 import './App.css';
 import { Home } from './component4/Home';
 import { First } from './components2/First';
-import { TodoCompo } from './TodoCompo';
+ import { TodoCompo } from './TodoCompo';
 
 function App() {
   return (
