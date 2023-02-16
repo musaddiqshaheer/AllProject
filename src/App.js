@@ -1,4 +1,4 @@
- import logo from './logo.svg';
+
 import './App.css';
 import { Home } from './component4/Home';
 import { First } from './components2/First';
