@@ -1,14 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
-import { Home } from './component4/Home';
-import { TodoCompo } from './TodoCompo';
+// import { Home } from './component4/Home';
+// import { TodoCompo } from './TodoCompo';
+import {Form}  from './Component3/Form'
 
 function App() {
   return (
     <div className="App">
-      <TodoCompo />
-      <Home/>
-      <h1>This is h1 tag</h1>
+      {/* <TodoCompo /> */}
+      {/* <Home/> */}
+      <Form/>
+   
     </div>
   );
 }
