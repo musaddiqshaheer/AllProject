@@ -7,7 +7,7 @@ export const TodoCompo = () => {
     const [edit, setEdit] = useState(false)
     const handleAddTask = () => {
         if (edit) {
-            const edited = todolist.map((elem, index) => index == selectIndex ? text : elem)
+            const edited = todolist.map((elem, index) => index === selectIndex ? text : elem)
             setTodolist(edited);
             setEdit(false)
             setSelectIndex(null)
