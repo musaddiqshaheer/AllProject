@@ -1,15 +1,11 @@
+import "./App.css";
 
-import './App.css';
-import { Home } from './component4/Home';
-import { First } from './components2/First';
- import { TodoCompo } from './TodoCompo';
+import { RouteComp } from "./components/RouteComp";
 
 function App() {
   return (
     <div className="App">
-      {/* <TodoCompo /> */}
-      <First/>
-      <Home/>
+      <RouteComp />
     </div>
   );
 }
