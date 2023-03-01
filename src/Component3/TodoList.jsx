@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 
-
-
-
 export const TodoList =() =>{
     const [todo,setTodo] =useState([])
     const [copytodo,setCopyTodo] =useState([])
